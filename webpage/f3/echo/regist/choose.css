@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body{
+    background-color: #35374c;
+    margin: 0; 
+    padding: 0; 
+}
+
+.btn{
+    border-radius: 4px;
+    border: none;
+    background-color: #f27360;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #eeeeed;
+}
+.btn:hover{
+    background-color: #eeeeed;
+    color:#f27360;
+    border: none;
+}
+
+
+.left{
+    position: relative;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+	width: 500px;
+}
+.right{
+    position: relative;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+	width: 500px; 
+}
+.clearfix{
+    clear:both;
+ }

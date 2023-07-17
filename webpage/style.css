@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body{
+    background-color: #35374c;
+    margin: 0; 
+    padding: 0; 
+}
+
+@media only screen and (min-width: 769px){
+        
+    h1{
+        font-family: 'Roboto Mono', monospace;
+        color: #fbe6e1;
+        margin-top: 25%;
+    }
+
+    ::placeholder{
+        color: #bcbdc1;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    input{
+        color: #bcbdc1;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .btn{
+        border-radius: 4px;
+        border: none;
+        background-color: #f27360;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 16px;
+        color: #eeeeed;
+    }
+    .btn:hover{
+        background-color: #eeeeed;
+        color:#f27360;
+        border: none;
+    }
+
+    .w50 {
+        width: 50%;
+        float: left;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    .chinese{
+        font-family: 'Noto Sans TC', sans-serif; 
+        font-weight: bold;
+    }
+
+    p{
+        color:#eeeeed;
+        margin-top: 1%;
+        margin-bottom: 3%;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 30px;
+    }
+
+    .title{
+        margin-top:30%;
+    }
+
+    .title2{
+        margin-top:30%;
+    }
+
+    .mg{
+        margin:0px auto;
+    }
+
+    .form{
+        width: 30%;
+        height: 5%;
+        margin-bottom: 3%;
+        border-radius: 5px;
+        border: none;
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 769px) {
+    
+    h1{
+        font-family: 'Roboto Mono', monospace;
+        color: #fbe6e1;
+        margin-top: 20%;
+        font-size: 20px;
+    }
+
+    ::placeholder{
+        color: #bcbdc1;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    input{
+        color: #bcbdc1;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .btn{
+        border-radius: 4px;
+        border: none;
+        background-color: #f27360;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 16px;
+        color: #eeeeed;
+    }
+    .btn:hover{
+        background-color: #eeeeed;
+        color:#f27360;
+        border: none;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    .ctr{
+        margin: 0 auto;
+    }
+
+    .chinese{
+        font-family: 'Noto Sans TC', sans-serif; 
+        font-weight: bold;
+    }
+
+    p{
+        color:#eeeeed;
+        margin-top: 1%;
+        margin-bottom: 3%;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 18px;
+    }
+
+    .title{
+        margin-top: 10%;
+    }
+
+    .title2{
+        margin-top:10%;
+    }
+
+    .form{
+        width: 50%;
+        height: 5%;
+        margin-bottom: 7%;
+        border-radius: 5px;
+        border: none;
+    }
+
+}

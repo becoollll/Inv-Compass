@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body{
+    background-color: #f2f2f2;
+    margin: 0; 
+    padding: 0; 
+}
+
+.center{
+    text-align: center;
+}
+
+.button{
+    border-radius: 4px;
+    border: none;
+    background-color: #22b4de;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #f2f2f2;
+    height: 7%;
+    width: 6%;
+    margin: 3%;
+
+}
+
+.form{
+    border-radius: 4px;
+    border: 3px #3b566e solid;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: #6487a5;
+    height: 7%;
+    width: 20%;
+    text-align: center;
+}
+
+.form_10{
+    border-radius: 4px;
+    border: 3px #3b566e solid;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: #6487a5;
+    height: 7%;
+    width: 10%;
+    text-align: center;
+}
+
+p{
+    color:#21d199;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 30px;
+}
+
+hr{
+    background-color: #22b4de;
+    height: 5px;
+
+}
+
+::placeholder {
+    color: #6487A5;
+}
+
+.col-example{
+
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+
+h1{
+    color: #f2f2f2; 
+    font-size: 350%;
+    font-weight: normal;
+    font-family: 'Hina Mincho', serif;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
+
+.chinese{
+    font-family: 'Noto Sans TC', sans-serif; 
+    font-weight: bold;
+}
+
+b{
+    color:#21d199;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-family: 'Noto Sans TC', sans-serif; 
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.fa-user{
+    font-size:150%;
+    color: #f2f2f2;
+}
+
+.user{
+    color: #f2f2f2; 
+    font-size: 150%;
+    font-weight: normal;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    align-items: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 3%;
+}
